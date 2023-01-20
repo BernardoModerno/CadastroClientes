@@ -41,3 +41,10 @@ yarn tsc --init
 yarn add ts-node-dev -D
 yarn add @types/express -D
 yarn prisma migrate dev
+
+expo init mobile
+npx create-expo-app mobile
+npx create-expo-app mobile -t expo-template-blank-typescript
+npx expo install @expo/vector-icons
+npm install --save styled-components
+npm i @types/styled-components-react-native -D
